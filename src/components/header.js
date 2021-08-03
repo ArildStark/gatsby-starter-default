@@ -1,6 +1,5 @@
 import React from "react"
 import { Link } from "gatsby"
-import  '../MarkStyle/markStyle.css'
 import  '../assets/vendor/bootstrap/css/bootstrap.min.css'
 import  '../assets/vendor/icofont/icofont.min.css'
 import  '../assets/vendor/owl.carousel/assets/owl.carousel.min.css'
