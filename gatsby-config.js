@@ -35,3 +35,17 @@ module.exports = {
     // `gatsby-plugin-offline`,
   ],
 }
+
+
+module.exports = {
+  plugins: [
+    {
+      resolve: `gatsby-source-drupal`,
+      options: {
+        baseUrl: `https://live-contentacms.pantheonsite.io/`,
+        apiBase: `api`, // optional, defaults to `jsonapi`
+      },
+    },
+  ],
+}
+
